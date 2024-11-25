@@ -1,0 +1,132 @@
+body {
+    background-image: url('img/fondo2valo.jpg');
+    background-repeat: no-repeat;  /* Evitar que se repita el fondo */
+    background-attachment: fixed;  /* Mantener el fondo fijo cuando se haga scroll */
+    background-size: cover;  /* Asegura que el fondo cubra toda la pantalla */
+    background-position: center;  /* Centra el fondo */
+}
+
+.fondo{
+    position: relative; 
+    height: 100vh;
+}
+.overley{
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    top: 55%; 
+    left: 50%;  
+    transform: translate(-50%, -50%);
+    background-color: rgba(205, 205, 205, 0.3);
+    z-index: 1;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(205, 205, 205, 0.5);
+    border: 5px solid rgba(205, 205, 205, 0.7);
+    background-image: url('img/backgrounddeadlock.png');
+    background-repeat: no-repeat; 
+    background-size: 55%;
+    background-position: left center;
+    
+}
+
+
+
+
+.contenedor-imagen-texto {
+    position: relative;
+    display: flex;
+    align-items: center; /* Centra el contenido verticalmente */
+
+}
+
+
+.contenedor-imagen-texto p{
+    position: absolute;
+    left: 600px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro para mejorar la legibilidad */
+    padding: 10px;
+    max-width:  45%; 
+    font-size: 16px;
+    text-align: justify;
+    border-radius: 15px;
+
+}
+
+p.desc{
+   
+    bottom: 750px; 
+}
+p.fecha{
+    bottom: 675px; 
+}
+p.rol{
+
+    bottom: 600px; 
+}
+p.textrol{
+    bottom: 500px;
+}
+
+img.imgroles{
+    position: absolute;
+    left: 1000px;
+    bottom: 250px;
+    height: 200px;
+    width: 200px;
+}
+.habilidades{
+    background-color: rgba(100, 100, 100, 0.3);
+    border-radius: 15px;
+    border: 5px solid rgba(205, 205, 205, 0.7);
+}
+div.habilidades img{
+  
+    height: 150px;
+    width: 150px;
+    transform: translateX(810%);  /* Ajusta el desplazamiento para centrar */
+    bottom: 100px;
+    
+}
+
+.habilidades p{
+    position: absolute;
+    left: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro para mejorar la legibilidad */
+    padding: 10px;
+    max-width:  45%; 
+    font-size: 16px;
+    text-align: justify;
+    border-radius: 15px;
+    
+}
+
+
+.habilidades h3{
+    padding-left: 20px;
+    padding-top: 20px;
+    color: aliceblue;
+}
+
+
+h1 {
+    position: relative; 
+    text-align: center;
+    padding-top: 80px;
+    color: rgb(255, 255, 255);
+    opacity: 100%;
+
+}
+
+img{
+    width: 100%;
+    height: auto;
+    left: 0%;
+    margin-left: -25%;
+    display: block;
+    padding-right: 0px;
+}
+.agentes {
+    margin-top: -90px; /* Ajusta el valor según lo necesites */
+}
